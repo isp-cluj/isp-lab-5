@@ -77,3 +77,23 @@ For the application above:
 * add necessary changes in ProxyVideo class so that depending on a constructor argument given in this class the proxy to call either black and white or color playable video.
 
 **>>>>insert class diagram here<<<<**
+
+## Exercise 5
+![Exercise 5 image](docs/ex5.jpg)
+
+Given the UML class diagram above, implement the corresponding Java program. 
+
+1. Create Java class based on the diagram above. 
+<br>After the creation of each Animal call the method eat which prints a message with the meal of each animal
+<br>The attributes chanceTo* will take values in [0-100]
+<br>The implementation of methods run*/hunt* from interfaces will print a message like: 
+<br>${Animal} ${animal.name} hunt/run successfully/failed at age ${animal.age} with a chance of  ${animal.chanceToHuntSuccessfully}%
+<br>ex: Dear dearName run successfully at age 13 with a chance of 88%
+<br>The Simulator() will create the Jungle which contains 20 herbivores(random nr of Elk/Dear) and 20 carnivores(random nr of Lion/Tiger) 
+<br>The simulate() method will take random a herbivore and a carnivore from the jungle and will simulate a "fight" until there are only herbivores or only carnivores.
+<br>After each duel the looser will be removed from jungle. In the end print a message with the winners if is not a draw
+<br>A draw happens when carnivores have their best participant equal in chances with the best participant from herbivores
+<br>ex: Tiger{chanceToHuntSuccessfully=98, name='16', age=48} and Dear{chanceToRunSuccessfully=98, name='1', age=3}
+<br>Feel free to add any methods you need
+2. Call the simulate method in Exercise1 main method
+3. Create a minimal unit test for testing the behavior of the created class.
