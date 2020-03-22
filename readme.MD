@@ -90,7 +90,7 @@ Given the UML class diagram above, implement the corresponding Java program.
 <br>${Animal} ${animal.name} hunt/run successfully/failed at age ${animal.age} with a chance of  ${animal.chanceToHuntSuccessfully}%
 <br>ex: Dear dearName run successfully at age 13 with a chance of 88%
 <br>The Simulator() will create the Jungle which contains 20 herbivores(random nr of Elk/Dear) and 20 carnivores(random nr of Lion/Tiger) 
-<br>The simulate() method will take random a herbivore and a carnivore from the jungle and will simulate a "fight" until there are only herbivores or only carnivores.
+<br>The simulate() method will take random a herbivore and a carnivore from the jungle and will simulate a "fight" until there are only herbivores or only carnivores or is a draw.
 <br>After each duel the looser will be removed from jungle. In the end print a message with the winners if is not a draw
 <br>A draw happens when carnivores have their best participant equal in chances with the best participant from herbivores
 <br>ex: Tiger{chanceToHuntSuccessfully=98, name='16', age=48} and Dear{chanceToRunSuccessfully=98, name='1', age=3}
