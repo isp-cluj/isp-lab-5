@@ -179,7 +179,7 @@ For the application above:
 **>>>>insert class diagram here<<<<**
 
 ## Exercise 5
-![Exercise 5 image](docs/ex5.jpg)
+![Exercise 5 image](docs/Lab5Ex5.jpg)
 
 Given the UML class diagram above, implement the corresponding Java program. 
 
